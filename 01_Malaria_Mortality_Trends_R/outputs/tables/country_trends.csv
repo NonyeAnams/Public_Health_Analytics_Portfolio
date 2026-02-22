@@ -1,0 +1,107 @@
+country,start,end,change,trend
+Afghanistan,25,0,-25,Decreasing
+Algeria,2,0,-2,Decreasing
+Angola,9510,11447,1937,Increasing
+Argentina,0,0,0,Stable
+Armenia,0,0,0,Stable
+Azerbaijan,0,0,0,Stable
+Bangladesh,484,6,-478,Decreasing
+Belize,0,0,0,Stable
+Benin,468,2362,1894,Increasing
+Bhutan,15,0,-15,Decreasing
+Bolivia (Plurinational State of),11,0,-11,Decreasing
+Botswana,29,1,-28,Decreasing
+Brazil,245,54,-191,Decreasing
+Burkina Faso,4233,3734,-499,Decreasing
+Burundi,691,2185,1494,Increasing
+Cabo Verde,0,2,2,Increasing
+Cambodia,608,0,-608,Decreasing
+Cameroon,2275,2016,-259,Decreasing
+Central African Republic,439,1507,1068,Increasing
+Chad,712,5420,4708,Increasing
+China,39,0,-39,Decreasing
+Colombia,124,26,-98,Decreasing
+Comoros,28,3,-25,Decreasing
+Congo,113,1263,1150,Increasing
+Costa Rica,0,0,0,Stable
+Côte d’Ivoire,797,1150,353,Increasing
+Democratic People’s Republic of Korea,0,0,0,Stable
+Democratic Republic of the Congo,3856,21260,17404,Increasing
+Djibouti,29,36,7,Increasing
+Dominican Republic,6,0,-6,Decreasing
+Ecuador,66,0,-66,Decreasing
+El Salvador,0,0,0,Stable
+Equatorial Guinea,4,79,75,Increasing
+Eritrea,133,3,-130,Decreasing
+Eswatini,62,0,-62,Decreasing
+Ethiopia,1681,1470,-211,Decreasing
+French Guiana,0,0,0,Stable
+Gabon,2016,266,-1750,Decreasing
+Gambia,275,70,-205,Decreasing
+Georgia,0,0,0,Stable
+Ghana,6108,74,-6034,Decreasing
+Guatemala,0,0,0,Stable
+Guinea,626,1433,807,Increasing
+Guinea-Bissau,635,118,-517,Decreasing
+Guyana,29,13,-16,Decreasing
+Haiti,16,17,1,Increasing
+Honduras,0,0,0,Stable
+India,932,86,-846,Decreasing
+Indonesia,833,132,-701,Decreasing
+Iran (Islamic Republic of),4,0,-4,Decreasing
+Kazakhstan,0,0,0,Stable
+Kenya,48767,437,-48330,Decreasing
+Kyrgyzstan,0,0,0,Stable
+Lao People's Democratic Republic,350,4,-346,Decreasing
+Lao People’s Democratic Republic,2,0,-2,Decreasing
+Liberia,41,265,224,Increasing
+Madagascar,591,564,-27,Decreasing
+Malawi,3355,2252,-1103,Decreasing
+Malaysia,35,3,-32,Decreasing
+Mali,748,1638,890,Increasing
+Mauritania,67,22,-45,Decreasing
+Mayotte,0,0,0,Stable
+Mexico,0,1,1,Increasing
+Mozambique,5816,358,-5458,Decreasing
+Myanmar,2556,1,-2555,Decreasing
+Namibia,1728,32,-1696,Decreasing
+Nepal,1,2,1,Increasing
+Nicaragua,4,0,-4,Decreasing
+Niger,1244,8305,7061,Increasing
+Nigeria,4317,3608,-709,Decreasing
+Pakistan,29,12,-17,Decreasing
+Panama,1,0,-1,Decreasing
+Papua New Guinea,617,195,-422,Decreasing
+Paraguay,0,0,0,Stable
+Peru,20,10,-10,Decreasing
+Philippines,536,12,-524,Decreasing
+Republic of Korea,0,0,0,Stable
+Rwanda,4275,88,-4187,Decreasing
+Sao Tome and Principe,254,1,-253,Decreasing
+Saudi Arabia,0,0,0,Stable
+Senegal,1275,301,-974,Decreasing
+Sierra Leone,328,2510,2182,Increasing
+Solomon Islands,38,7,-31,Decreasing
+Somalia,8,1,-7,Decreasing
+South Africa,424,10,-414,Decreasing
+South Sudan,263,3329,3066,Increasing
+Sri Lanka,77,0,-77,Decreasing
+Sudan,2162,705,-1457,Decreasing
+Suriname,24,0,-24,Decreasing
+Tajikistan,0,0,0,Stable
+Thailand,625,2,-623,Decreasing
+Timor-Leste,65,0,-65,Decreasing
+Togo,1209,993,-216,Decreasing
+Turkmenistan,0,0,0,Stable
+Türkiye,0,0,0,Stable
+Uganda,4252,2358,-1894,Decreasing
+United Republic of Tanzania,379,17939,17560,Increasing
+United Republic of Tanzania (Mainland),838,1515,677,Increasing
+United Republic of Tanzania (Zanzibar),379,18,-361,Decreasing
+Uzbekistan,0,0,0,Stable
+Vanuatu,3,0,-3,Decreasing
+Venezuela (Bolivarian Republic of),24,11,-13,Decreasing
+Viet Nam,142,0,-142,Decreasing
+Yemen,73,18,-55,Decreasing
+Zambia,9369,1208,-8161,Decreasing
+Zimbabwe,1844,107,-1737,Decreasing
