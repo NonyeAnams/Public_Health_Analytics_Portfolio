@@ -137,6 +137,6 @@ diabetes-risk-prediction/
 
 ## Author
 
-Chinonye Anams
-Biochemistry & Molecular Biology | Public Health & Healthcare Data Analytics
+**Chinonye Anams**      
+Biochemistry & Molecular Biology | Public Health & Healthcare Data Analytics      
 Passionate about interpretable AI, epidemiological analytics, and data-driven healthcare innovation.
