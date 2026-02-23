@@ -58,7 +58,7 @@ A predictive modeling project exploring clinical risk factors for diabetes and e
 ### 4. DHIS2-Style Malaria Surveillance Mini Project
 A short exploratory project demonstrating routine malaria surveillance analytics and reporting completeness assessment using simulated DHIS2-style data.
 
-[🔗 Explore Project]()
+[🔗 Explore Project](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/tree/main/04_dhis2_malaria_mini)
 
 ## Skills Demonstrated
 **Data Analytics**
