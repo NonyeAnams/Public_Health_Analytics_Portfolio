@@ -91,11 +91,11 @@ A predictive modeling project exploring clinical risk factors for diabetes and e
 
 ## Tools & Technologies
 
-**Languages:**
-R, Python
+**Languages:**      
+R, Python      
 
-**Libraries & Frameworks:**
-tidyverse, ggplot2, sf, pandas, scikit-learn, matplotlib, seaborn, SHAP
+**Libraries & Frameworks:**      
+tidyverse, ggplot2, sf, pandas, scikit-learn, matplotlib, seaborn, SHAP      
 
 **Workflow Practices:**
 
