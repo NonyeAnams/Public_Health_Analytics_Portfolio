@@ -39,7 +39,7 @@ An interpretable machine learning project focused on cardiovascular risk stratif
 
 [🔗 Explore Project](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/tree/main/02_Cardiovascular_Risk_Prediction)
 
-###  Diabetes Risk Prediction Using Machine Learning
+### 3. Diabetes Risk Prediction Using Machine Learning
 
 A predictive modeling project exploring clinical risk factors for diabetes and evaluating machine learning approaches for early detection and screening insights.
 
@@ -54,6 +54,11 @@ A predictive modeling project exploring clinical risk factors for diabetes and e
 - Applications in preventive healthcare analytics
 
 [🔗 Explore Project](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/tree/main/03_Diabetes_Risk_Prediction)
+
+### 4. DHIS2-Style Malaria Surveillance Mini Project
+A short exploratory project demonstrating routine malaria surveillance analytics and reporting completeness assessment using simulated DHIS2-style data.
+
+[🔗 Explore Project]()
 
 ## Skills Demonstrated
 **Data Analytics**
