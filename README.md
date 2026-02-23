@@ -21,7 +21,7 @@ An end-to-end analysis of malaria mortality using WHO data, with a focus on Nige
 
 - Choropleth mapping of malaria mortality across Africa
 
-🔗 Explore Project
+[🔗 Explore Project](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/tree/main/01_Malaria_Mortality_Trends_R)
 
 ### 2. Heart Disease Risk Prediction (Explainable ML)
 
@@ -37,7 +37,7 @@ An interpretable machine learning project focused on cardiovascular risk stratif
 
 - Transparent AI for healthcare decision support
 
-🔗 Explore Project
+[🔗 Explore Project](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/tree/main/02_Cardiovascular_Risk_Prediction)
 
 ###  Diabetes Risk Prediction Using Machine Learning
 
@@ -53,7 +53,7 @@ A predictive modeling project exploring clinical risk factors for diabetes and e
 
 - Applications in preventive healthcare analytics
 
-🔗 Explore Project
+[🔗 Explore Project](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/tree/main/03_Diabetes_Risk_Prediction)
 
 ## Skills Demonstrated
 **Data Analytics**
