@@ -90,7 +90,7 @@ File: Annex 4L – Long format malaria deaths dataset
 **Interpretation:**
 While progress is evident, Nigeria remains a priority country for malaria control due to sustained high mortality and regional influence.
 
-###High-Burden Countries
+### High-Burden Countries
 Malaria mortality is heavily concentrated in a small number of countries.
 
 **Top countries in 2024:**
@@ -111,7 +111,7 @@ Across the full study period (2001–2024), the highest cumulative burden countr
 **Interpretation:**
 This confirms a persistent cluster of high-burden countries driving global malaria mortality.
 
-###Regional Inequality
+### Regional Inequality
 Malaria deaths are overwhelmingly concentrated in one region.
 - The WHO African Region accounted for ~3.07 million deaths, representing ~96% of global malaria mortality.
 - The second highest region (South-East Asia) contributed only ~50,270 deaths, a tiny fraction by comparison.
@@ -119,7 +119,7 @@ Malaria deaths are overwhelmingly concentrated in one region.
 **Interpretation:**
 Malaria remains a profoundly unequal disease, with the global burden overwhelmingly concentrated in Africa.
 
-##Long-Term Country Trends
+## Long-Term Country Trends
 
 Country-level trends reveal mixed progress.
 - Over 60 countries showed increasing mortality trends, suggesting emerging or persistent control challenges.
@@ -198,5 +198,5 @@ Interested in epidemiological analytics, interpretable AI, and data-driven healt
 
 ---
 
-##License
+## License
 Open for educational and portfolio use.
