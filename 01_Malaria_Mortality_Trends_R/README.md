@@ -145,13 +145,13 @@ Malaria burden is not evenly distributed across Africa, with clear geographic ho
 ---
 
 ## Example Visualizations
-**Nigeria Trend**
+[**Nigeria Trend**](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/blob/main/01_Malaria_Mortality_Trends_R/outputs/charts/nigeria_trend.png)
 - Line plot showing annual malaria deaths in Nigeria
 
-**Top 10 Countries**
-- Bar chart ranking countries by total deaths (2015–2024)
+[**Top 10 Countries**](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/blob/main/01_Malaria_Mortality_Trends_R/outputs/charts/top10_countries.png)
+- Bar chart ranking countries by total deaths (2001–2024)
 
-**Africa Malaria Map**
+[**Africa Malaria Map**](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/blob/main/01_Malaria_Mortality_Trends_R/outputs/maps/africa_malaria_map.png)
 - Choropleth map of malaria mortality across Africa
 
 ---
