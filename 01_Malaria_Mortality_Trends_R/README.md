@@ -1,8 +1,8 @@
 ---
-#Malaria Mortality Trends and Geographic Distribution in Africa (2001–2024) (WHO Data, R)
+# Malaria Mortality Trends and Geographic Distribution in Africa (2001–2024) (WHO Data, R)
 ---
 
-##Overview
+## Overview
 
 This project analyzes global malaria mortality trends using data from the WHO World Malaria Report 2025.
 The analysis focuses on:
@@ -16,7 +16,7 @@ Built entirely in R, this project demonstrates end-to-end data analytics skills 
 
 ---
 
-##Objectives
+## Objectives
 
 - Clean and standardize WHO malaria datasets
 - Analyze malaria mortality trends (2001–2024)
@@ -26,13 +26,13 @@ Built entirely in R, this project demonstrates end-to-end data analytics skills 
 
 ---
 
-##Dataset
+## Dataset
 Source: WHO World Malaria Report 2025
 File: Annex 4L – Long format malaria deaths dataset
 
 ---
 
-##Variables used:
+## Variables used:
 - Country
 - WHO Region
 - Year
@@ -40,7 +40,7 @@ File: Annex 4L – Long format malaria deaths dataset
 
 ---
 
-##Tools & Skills Demonstrated
+## Tools & Skills Demonstrated
 - **Data Cleaning**: tidyverse, readxl
 - **Exploratory Analysis**: dplyr, summarise
 - **Visualization**: ggplot2
@@ -49,7 +49,7 @@ File: Annex 4L – Long format malaria deaths dataset
 
 ---
 
-##Project Structure
+## Project Structure
 ```
 01_Malaria_Mortality_Trends_R/
 │
@@ -79,7 +79,7 @@ File: Annex 4L – Long format malaria deaths dataset
 ```
 ---
 
-##Key Findings
+## Key Findings
 ### Nigeria’s Malaria Burden
 - Nigeria remains a major contributor to malaria mortality, although trends suggest gradual improvement.
 - Nigeria recorded an average of ~7,552 malaria deaths per year across the study period (2001–2024).
@@ -129,7 +129,7 @@ Country-level trends reveal mixed progress.
 **Interpretation:**
 Despite global progress narratives, malaria trajectories vary widely across countries.
 
-###Spatial Patterns Across Africa
+### Spatial Patterns Across Africa
 Geographic visualization reveals strong clustering of malaria mortality.
 
 Key patterns from the Africa map:
@@ -144,7 +144,7 @@ Malaria burden is not evenly distributed across Africa, with clear geographic ho
 
 ---
 
-##Example Visualizations
+## Example Visualizations
 **Nigeria Trend**
 - Line plot showing annual malaria deaths in Nigeria
 
@@ -156,7 +156,7 @@ Malaria burden is not evenly distributed across Africa, with clear geographic ho
 
 ---
 
-##Reproducibility
+## Reproducibility
 To reproduce the analysis:
 ```
 install.packages(c(
@@ -166,14 +166,14 @@ install.packages(c(
 ```
 
 Run scripts in order:
-1.Data cleaning
-2.Nigeria analysis
-3.Visualizations
-4.Mapping
+1. Data cleaning
+2. Nigeria analysis
+3. Visualizations
+4. Mapping
 
 ---
 
-##Why This Project Matters
+## Why This Project Matters
 Malaria remains a major public health challenge, especially in Africa.
 This project demonstrates how data analytics can:
 - Inform public health decision-making
@@ -182,7 +182,7 @@ This project demonstrates how data analytics can:
 
 ---
 
-##Future Improvements
+## Future Improvements
 - Interactive dashboards (Tableau / Power BI)
 - Malaria incidence + mortality combined analysis
 - Predictive modeling of malaria trends
