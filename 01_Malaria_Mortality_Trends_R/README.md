@@ -192,8 +192,8 @@ This project demonstrates how data analytics can:
 
 ## Author
 
-**Chinonye Anams**
-Biochemistry & Molecular Biology | Public Health & Healthcare Data Analytics
+**Chinonye Anams**   
+Biochemistry & Molecular Biology | Public Health & Healthcare Data Analytics   
 Interested in epidemiological analytics, interpretable AI, and data-driven health innovation.
 
 ---
