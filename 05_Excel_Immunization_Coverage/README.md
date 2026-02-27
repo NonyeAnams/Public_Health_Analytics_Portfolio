@@ -11,15 +11,10 @@ Measles remains one of the leading causes of vaccine-preventable deaths globally
 This project analyzes the relationship between measles vaccination coverage and disease burden across Sub-Saharan Africa (SSA) from 2000–2024.
 
 The analysis explores:
-
 - Measles vaccination coverage (WUENIC estimates)
-
 - Reported measles cases
-
 - Measles incidence per 100,000 population
-
 - Long-term regional trends
-
 - Gaps in herd immunity attainment
 
 The goal is to evaluate whether improvements in vaccination coverage are associated with reductions in measles incidence across SSA countries.
@@ -29,11 +24,8 @@ The goal is to evaluate whether improvements in vaccination coverage are associa
 ## Key Highlights
 
 - 76% average measles coverage in SSA (2024)
-
 - +15 percentage point increase since 2000
-
 - 63.7 per 100k reduction in measles incidence
-
 - 42 countries still below the 95% herd immunity threshold
 
 ---
@@ -41,9 +33,7 @@ The goal is to evaluate whether improvements in vaccination coverage are associa
 ## Data Sources
 
 - WHO WUENIC – Immunization coverage estimates and reported measles cases
-
 - World Bank Open Data – Population data (for incidence calculations)
-
 - UN / World Bank Regional Classification – Country-to-region mapping
 
 Time span: 2000–2024
@@ -53,17 +43,11 @@ Time span: 2000–2024
 ## Tools & Skills Demonstrated
 
 - Microsoft Excel (advanced analytics)
-
 - Power Query (ETL pipeline)
-
 - PivotTables for aggregation
-
 - Data normalization (incidence per 100k)
-
 - KPI engineering
-
 - Dashboard design
-
 - Public health data storytelling
 
 ---
@@ -98,21 +82,14 @@ Data preprocessing was performed using Power Query to ensure analytical consiste
 Key steps:
 
 1. Removed metadata rows and non-tabular formatting.
-
 2. Converted worksheets into structured tables.
-
 3. Unpivoted wide year columns into long format.
-
 4. Merged datasets:
-
   - Measles coverage + cases
   - Population data (for incidence calculation)
   - Country-to-region classification
-
 5. Filtered dataset to Sub-Saharan Africa countries only.
-
 6. Engineered analytical features:
-
   - Incidence per 100,000 population
   - Coverage change since 2000
   - Incidence reduction since 2000
@@ -125,13 +102,9 @@ Key steps:
 The Excel dashboard provides an executive summary of measles epidemiology in SSA:
 
 - Measles incidence trend (2000–2024)
-
 - Coverage vs incidence dual-axis analysis
-
 - Top measles burden countries (latest year)
-
 - Countries with least coverage (latest year)
-
 - KPI summary panel
 
 The dashboard is designed for clarity, interpretability, and rapid insight extraction.
@@ -141,11 +114,8 @@ The dashboard is designed for clarity, interpretability, and rapid insight extra
 ## Key Insights
 
 - Measles vaccination coverage has improved substantially since 2000 across SSA.
-
 - Despite progress, most SSA countries remain below the 95% herd immunity threshold.
-
 - Measles incidence has declined overall but remains highly volatile, reflecting periodic outbreaks.
-
 - High-burden countries continue to drive regional incidence, highlighting persistent immunization gaps.
 
 ---
@@ -161,13 +131,9 @@ This project demonstrates how publicly available health data can be transformed 
 ## Potential Extensions
 
 - Lagged correlation analysis (coverage vs incidence 1–2 years later)
-
 - Country-level clustering by risk profile
-
 - Expansion to other vaccine-preventable diseases (e.g., DTP3, polio)
-
 - Migration to Power BI or Tableau for interactive dashboards
-
 - Integration with demographic or conflict data
 
 ---
