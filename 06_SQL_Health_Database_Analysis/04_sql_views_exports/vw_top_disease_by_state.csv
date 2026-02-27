@@ -1,0 +1,81 @@
+state,disease_name,cases
+Borno,Malaria,161
+Borno,Hypertension,115
+Borno,COVID-19,79
+Borno,Diabetes,67
+Borno,Tuberculosis,48
+Borno,Stroke,45
+Borno,Asthma,45
+Borno,Chronic Kidney Disease,37
+Borno,Measles,35
+Borno,Cholera,32
+Enugu,Malaria,113
+Enugu,Hypertension,80
+Enugu,COVID-19,69
+Enugu,Diabetes,53
+Enugu,Asthma,50
+Enugu,Tuberculosis,39
+Enugu,Measles,30
+Enugu,Stroke,29
+Enugu,Cholera,29
+Enugu,Chronic Kidney Disease,20
+Kaduna,Malaria,137
+Kaduna,Hypertension,120
+Kaduna,COVID-19,70
+Kaduna,Diabetes,69
+Kaduna,Asthma,57
+Kaduna,Tuberculosis,42
+Kaduna,Stroke,40
+Kaduna,Measles,34
+Kaduna,Cholera,28
+Kaduna,Chronic Kidney Disease,20
+Kano,Malaria,153
+Kano,Hypertension,127
+Kano,Diabetes,67
+Kano,Tuberculosis,62
+Kano,Asthma,49
+Kano,COVID-19,48
+Kano,Stroke,45
+Kano,Chronic Kidney Disease,37
+Kano,Cholera,30
+Kano,Measles,28
+Lagos,Malaria,146
+Lagos,Hypertension,102
+Lagos,COVID-19,63
+Lagos,Diabetes,58
+Lagos,Asthma,52
+Lagos,Stroke,48
+Lagos,Tuberculosis,40
+Lagos,Cholera,32
+Lagos,Chronic Kidney Disease,29
+Lagos,Measles,25
+Oyo,Malaria,139
+Oyo,Hypertension,116
+Oyo,Diabetes,62
+Oyo,COVID-19,50
+Oyo,Stroke,45
+Oyo,Asthma,40
+Oyo,Tuberculosis,37
+Oyo,Measles,35
+Oyo,Chronic Kidney Disease,34
+Oyo,Cholera,30
+Plateau,Malaria,158
+Plateau,Hypertension,116
+Plateau,COVID-19,73
+Plateau,Diabetes,57
+Plateau,Stroke,47
+Plateau,Asthma,44
+Plateau,Chronic Kidney Disease,36
+Plateau,Tuberculosis,35
+Plateau,Measles,29
+Plateau,Cholera,29
+Rivers,Malaria,191
+Rivers,Hypertension,144
+Rivers,COVID-19,80
+Rivers,Diabetes,74
+Rivers,Stroke,60
+Rivers,Asthma,51
+Rivers,Tuberculosis,49
+Rivers,Measles,38
+Rivers,Chronic Kidney Disease,37
+Rivers,Cholera,30

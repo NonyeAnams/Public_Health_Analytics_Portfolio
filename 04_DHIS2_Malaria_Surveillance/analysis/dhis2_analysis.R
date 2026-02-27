@@ -34,6 +34,7 @@ data <- data %>%
 data <- data %>%
   mutate(reporting_rate = reports_received / reports_expected)
 
+
 # -----------------------------
 # 4. Monthly Malaria Trends
 # -----------------------------

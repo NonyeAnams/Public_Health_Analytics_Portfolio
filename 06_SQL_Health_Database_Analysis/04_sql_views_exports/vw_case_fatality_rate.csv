@@ -1,0 +1,11 @@
+disease_name,total_cases,deaths,case_fatality_rate_pct
+Diabetes,507,13,2.56
+Measles,254,6,2.36
+Tuberculosis,352,7,1.99
+Cholera,240,4,1.67
+Asthma,388,5,1.29
+Stroke,359,4,1.11
+Hypertension,920,10,1.09
+Malaria,1198,11,0.92
+Chronic Kidney Disease,250,2,0.8
+COVID-19,532,4,0.75

@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+venv/
+.env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Power BI autosaves
+*.pbix.autosave
+
+# SQLite databases
+*.db
+*.sqlite
+
+# Large temp files
+*.log
+*.tmp

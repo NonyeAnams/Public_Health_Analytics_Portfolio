@@ -1,0 +1,11 @@
+disease_id,disease_name,category,is_vaccine_preventable
+1,Malaria,Communicable,0
+2,Tuberculosis,Communicable,0
+3,Measles,Communicable,1
+4,COVID-19,Communicable,1
+5,Cholera,Communicable,0
+6,Hypertension,NCD,0
+7,Diabetes,NCD,0
+8,Asthma,NCD,0
+9,Stroke,NCD,0
+10,Chronic Kidney Disease,NCD,0

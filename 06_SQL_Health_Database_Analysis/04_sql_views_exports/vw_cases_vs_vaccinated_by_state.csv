@@ -1,0 +1,17 @@
+state,disease_name,infected_people,vaccinated_people,vaccination_coverage_pct
+Kaduna,COVID-19,52,20,38.46
+Borno,COVID-19,57,22,38.6
+Oyo,COVID-19,43,18,41.86
+Plateau,COVID-19,55,25,45.45
+Rivers,COVID-19,65,30,46.15
+Kano,COVID-19,44,22,50.0
+Plateau,Measles,27,15,55.56
+Enugu,COVID-19,50,29,58.0
+Kaduna,Measles,29,17,58.62
+Lagos,COVID-19,55,33,60.0
+Kano,Measles,23,14,60.87
+Borno,Measles,32,20,62.5
+Lagos,Measles,23,15,65.22
+Oyo,Measles,26,18,69.23
+Enugu,Measles,27,19,70.37
+Rivers,Measles,32,24,75.0
