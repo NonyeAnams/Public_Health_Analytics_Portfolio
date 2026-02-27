@@ -1,144 +1,130 @@
-# Public Health Analytics Portfolio
+# Public Health Data Analytics Portfolio
 
-Welcome! This repository showcases a curated collection of public health and healthcare data analytics projects, demonstrating skills in data cleaning, statistical analysis, visualization, geospatial mapping, and interpretable machine learning.
+---
 
-The projects reflect a growing focus on applying data science to global health challenges, including infectious disease burden analysis and clinical risk modeling.
+## Mission
+
+This portfolio showcases applied data analytics projects focused on global health, infectious disease monitoring, and vaccination systems.
+
+The work demonstrates how data can support:
+- Disease surveillance and outbreak awareness
+- Vaccination program monitoring
+- Evidence-based decision-making
+- Monitoring & Evaluation (M&E) analytics
+- Public health insight communication
+
+The overall goal is simple:
+**turn health data into clear, actionable insight for real-world impact.**
+
+---
+
+## Core Capabilities
+
+### Data Analysis for Public Health
+- Cleaning and restructuring real-world health datasets
+- Epidemiological metric calculation (incidence, CFR, coverage)
+- Trend analysis across countries and regions
+- Comparative burden analysis
+- KPI engineering for program monitoring
+
+### Tools Used in Global Health Contexts
+- **Excel (Advanced)** – Power Query, PivotTables, dashboards
+- **SQL** – Health database design, analytics layers, surveillance queries
+- **Python / R** – Data analysis, visualization, modeling
+- **Power BI** – Interactive dashboards for decision support
+
+---
 
 ## Featured Projects
-### 1. Malaria Mortality Trends in Africa (2001–2024) — Flagship Project
+| # |Project	| Focus Area	| Tools|
+| :--- | :--- | :--- |:--- |
+| 1	| [Malaria Mortality Trends in Africa (2001–2024)](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/tree/main/01_Malaria_Mortality_Trends_R) |	Long-term disease burden & regional inequality |	R |
+| 2	| [Measles Vaccination Coverage & Incidence (SSA)](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/tree/main/05_Excel_Immunization_Coverage) |	Immunization monitoring & herd immunity gaps | Excel |
+| 3	| [Public Health Surveillance & Vaccination Analytics System](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/tree/main/06_SQL_Health_Database_Analysis) |	Simulated national surveillance & outbreak detection |	SQL, Python, Power BI |
+| 4	| [Heart Disease Risk Prediction (Explainable ML)](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/tree/main/02_Cardiovascular_Risk_Prediction) |	Interpretable clinical risk modeling	| Python |
+| 5	| [Diabetes Risk Prediction](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/tree/main/03_Diabetes_Risk_Prediction) |	Preventive health analytics	| Python |
+| 6	| [DHIS2-Style Malaria Surveillance mini Project](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/tree/main/04_DHIS2_Malaria_Surveillance)	| Routine surveillance reporting | R |
 
-An end-to-end analysis of malaria mortality using WHO data, with a focus on Nigeria’s burden, high-impact countries, regional inequality, and spatial patterns across Africa.
+Each project includes documentation explaining methods, assumptions, and insights, reflecting a focus on transparency and reproducibility.
 
-**Key highlights:**
+---
 
-- WHO malaria data cleaning and standardization
+## Public Health Themes Across Projects
 
-- Long-term mortality trend analysis
+- Infectious disease burden analysis
+- Vaccination coverage and herd immunity gaps
+- Surveillance system thinking
+- Monitoring & Evaluation–style reporting
+- Translating data into program-relevant insights
 
-- Nigeria-focused burden assessment
 
-- High-burden country comparisons
+---
 
-- Choropleth mapping of malaria mortality across Africa
+## Background
 
-[🔗 Explore Project](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/tree/main/01_Malaria_Mortality_Trends_R)
+I am a research-trained life sciences graduate transitioning into public health data analytics, with academic training in molecular biology and biochemistry.
 
-### 2. Heart Disease Risk Prediction (Explainable ML)
+My background contributes:
 
-An interpretable machine learning project focused on cardiovascular risk stratification using structured clinical data, with an emphasis on explainability and healthcare relevance.
+- Strong scientific reasoning
+- Experience handling biological data
+- Evidence-based thinking
+- Structured documentation and reporting
 
-**Key highlights:**
 
-- Interpretable ML models (Logistic Regression, Random Forest)
+I am currently deepening expertise in:
 
-- SHAP-based explainability
+- Public health analytics
+- Epidemiological data interpretation
+- SQL and BI tools for surveillance
+- Reproducible data workflows
 
-- Clinically meaningful feature insights
+---
 
-- Transparent AI for healthcare decision support
+## Current Learning Focus
 
-[🔗 Explore Project](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/tree/main/02_Cardiovascular_Risk_Prediction)
+I am actively expanding this portfolio to include:
 
-### 3. Diabetes Risk Prediction Using Machine Learning
+- Monitoring & Evaluation dashboards
+- Advanced SQL for surveillance analytics
+- Interactive BI dashboards (Power BI / Tableau Public)
+- Geospatial disease mapping
+- Predictive infectious disease modeling
+- Bioinformatics-informed population health analytics
 
-A predictive modeling project exploring clinical risk factors for diabetes and evaluating machine learning approaches for early detection and screening insights.
-
-**Key highlights:**
-
-- Exploratory clinical data analysis
-
-- Feature-risk relationship insights
-
-- Model comparison and evaluation
-
-- Applications in preventive healthcare analytics
-
-[🔗 Explore Project](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/tree/main/03_Diabetes_Risk_Prediction)
-
-### 4. DHIS2-Style Malaria Surveillance Mini Project
-A short exploratory project demonstrating routine malaria surveillance analytics and reporting completeness assessment using simulated DHIS2-style data.
-
-[🔗 Explore Project](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/tree/main/04_dhis2_malaria_mini)
-
-## Skills Demonstrated
-**Data Analytics**
-
-- Data cleaning and transformation (R, Python, tidyverse, pandas)
-
-- Exploratory data analysis and trend assessment
-
-- Statistical summaries and comparative analysis
-
-**Visualization & Mapping**
-
-- Data visualization (ggplot2, matplotlib, seaborn)
-
-- Geospatial analysis and choropleth mapping (sf, rnaturalearth)
-
-- Communicating insights through charts and maps
-
-**Machine Learning**
-
-- Predictive modeling (scikit-learn)
-
-- Model evaluation and comparison
-
-- Explainable AI (SHAP)
-
-**Public Health Focus**
-
-- Infectious disease analytics
-
-- Risk stratification and screening insights
-
-- Translating data into decision-relevant findings
-
+---
 
 ## Tools & Technologies
 
-**Languages:**      
-R, Python      
+**Languages:**
+R | Python | SQL
 
-**Libraries & Frameworks:**      
-tidyverse, ggplot2, sf, pandas, scikit-learn, matplotlib, seaborn, SHAP      
+**Analytics & Visualization:**
+Excel | Power BI | ggplot2 | matplotlib
 
-**Workflow Practices:**
+**Libraries:**
+tidyverse | pandas | scikit-learn | SHAP | sf
 
+**Workflow:**
 - Reproducible project structure
+- Clear documentation
+- Insight-first storytelling
 
-- RStudio Projects + here()
+---
 
-- GitHub-based portfolio development
+## Why This Portfolio
 
-## About Me
+This repository reflects a deliberate transition into data-driven global health work.
 
-I am a life sciences graduate transitioning into public health data analytics and bioinformatics, with a strong interest in applying data science to global health and infectious disease research.
+It demonstrates the ability to:
+- Work with messy health datasets
+- Build clear analytical pipelines
+- Generate meaningful public health insights
+- Communicate findings in an accessible way
 
-My academic background includes training in molecular biology and biochemistry, and I am currently building expertise in:
-
-- Public health analytics
-
-- Epidemiological data analysis
-
-- Healthcare machine learning
-
-- Reproducible research workflows
-
-This portfolio documents my learning journey and applied projects at the intersection of data science and global health.
-
-
-## Future Directions
-
-Planned additions to this portfolio include:
-
-- Interactive public health dashboards (Tableau / Power BI)
-
-- Malaria incidence + mortality integrated analyses
-
-- Geospatial disease burden modeling
-
-- Predictive analytics for infectious disease trends
-
-- Bioinformatics and genomics-informed health analytics
-
+I am particularly interested in opportunities in:
+- Global health analytics
+- Monitoring & Evaluation (M&E)
+- Infectious disease research
+- Digital health and surveillance
 

@@ -1,8 +1,8 @@
-#Measles Vaccination Coverage & Incidence Analysis Sub-Saharan Africa (2000–2024)
+# Measles Vaccination Coverage & Incidence Analysis Sub-Saharan Africa (2000–2024)
 ---
 
 
-![Dashboard Preview](dashboard_screenshot.png)
+![Dashboard Preview](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/blob/main/05_Excel_Immunization_Coverage/figures/dashboard_screenshoot.png)
 
 ## Project Overview
 
@@ -173,7 +173,6 @@ This project demonstrates how publicly available health data can be transformed 
 ---
 
 ## Author
-
-**Chinonye Anams**
-MSc Cell Biology & Genetics
+**Chinonye Anams**        
+MSc Cell Biology & Genetics        
 Public Health & Data Analytics Enthusiast

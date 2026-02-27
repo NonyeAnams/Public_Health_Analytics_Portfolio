@@ -1,12 +1,12 @@
-#Public Health Surveillance & Vaccination Analytics System
+# Public Health Surveillance & Vaccination Analytics System
 ---
 
 ## Dashboard Preview
 
-### 🦠 Disease Burden & Outcomes
+### Disease Burden & Outcomes
 ![Dashboard Page 1](05_powerbi_dashboard/dashboard_screenshots/dashboard_page1_disease_burden.png)
 
-### 💉 Vaccination & Health System
+### Vaccination & Health System
 ![Dashboard Page 2](05_powerbi_dashboard/dashboard_screenshots/dashboard_page2_vaccination_system.png)
 
 ---
@@ -104,7 +104,7 @@ The project uses SQL Views as a semantic layer for BI reporting.
 
 Key Views:
 | View	| Purpose |
-| :--- | ---: |
+| :--- | :--- |
 | vw_disease_burden |	Total cases & deaths by disease |
 | vw_case_fatality_rate	| CFR by disease |
 | vw_yearly_trends | Disease trends (2020–2024) |
@@ -257,8 +257,7 @@ Dataset size:
 
 ---
 
-##Author
-
-**Chinonye Anams**
-Public Health Data Analytics Project
+## Author
+**Chinonye Anams**               
+Public Health Data Analytics Project               
 2026
