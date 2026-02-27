@@ -128,3 +128,5 @@ I am particularly interested in opportunities in:
 - Infectious disease research
 - Digital health and surveillance
 
+## Connect with Me
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nonye-anams/)
