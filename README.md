@@ -2,7 +2,7 @@
 
 ---
 
-##Mission
+## Mission
 
 This portfolio showcases applied data analytics projects focused on global health, infectious disease monitoring, and vaccination systems.
 
@@ -27,7 +27,7 @@ The overall goal is simple:
 - Comparative burden analysis
 - KPI engineering for program monitoring
 
-###Tools Used in Global Health Contexts
+### Tools Used in Global Health Contexts
 - **Excel (Advanced)** – Power Query, PivotTables, dashboards
 - **SQL** – Health database design, analytics layers, surveillance queries
 - **Python / R** – Data analysis, visualization, modeling
@@ -40,7 +40,7 @@ The overall goal is simple:
 | :--- | :--- | :--- |:--- |
 | 1	| [Malaria Mortality Trends in Africa (2001–2024)](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/tree/main/01_Malaria_Mortality_Trends_R) |	Long-term disease burden & regional inequality |	R |
 | 2	| [Measles Vaccination Coverage & Incidence (SSA)](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/tree/main/05_Excel_Immunization_Coverage) |	Immunization monitoring & herd immunity gaps | Excel |
-| 3	| [Public Health Surveillance & Vaccination Analytics System]([https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/tree/main/06_SQL_Health_Database_Analysis](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/tree/main/06_SQL_Health_Database_Analysis) |	Simulated national surveillance & outbreak detection |	SQL, Python, Power BI |
+| 3	| [Public Health Surveillance & Vaccination Analytics System](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/tree/main/06_SQL_Health_Database_Analysis) |	Simulated national surveillance & outbreak detection |	SQL, Python, Power BI |
 | 4	| [Heart Disease Risk Prediction (Explainable ML)](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/tree/main/02_Cardiovascular_Risk_Prediction) |	Interpretable clinical risk modeling	| Python |
 | 5	| [Diabetes Risk Prediction](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/tree/main/03_Diabetes_Risk_Prediction) |	Preventive health analytics	| Python |
 | 6	| [DHIS2-Style Malaria Surveillance mini Project](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/tree/main/04_DHIS2_Malaria_Surveillance)	| Routine surveillance reporting | R |
