@@ -16,7 +16,6 @@
 This project simulates a national public health surveillance system using synthetic healthcare data.
 
 It demonstrates how SQL and BI tools can be used to:
-
 - Monitor disease burden
 - Track vaccination coverage
 - Analyze treatment costs
@@ -26,9 +25,7 @@ It demonstrates how SQL and BI tools can be used to:
 The system is built using:
 
 - **SQLite (database & analytics layer)**
-
 - **Python (synthetic data generation)**
-
 - **Power BI (interactive dashboards)**
 
 ---
