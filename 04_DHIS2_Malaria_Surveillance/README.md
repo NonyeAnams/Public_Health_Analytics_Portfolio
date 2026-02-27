@@ -76,13 +76,8 @@ Data reliability allows confidence in burden estimates and programmatic decision
 **Suggested actions:** Strengthen vector control, community engagement, and case management in high-burden areas, while maintaining high-quality surveillance across all states.
 
 
-## Relevance
-
-This project shows the ability to translate raw health surveillance data into meaningful public health insights.
-
 ## Author
-
-**Chinonye Anams**
-Biochemistry & Molecular Biology | Public Health & Healthcare Data Analytics
-Interested in epidemiological analytics, interpretable AI, and data-driven health innovation.
+**Chinonye Anams**        
+Biochemistry & Molecular Biology | Public Health & Healthcare Data Analytics        
+Interested in epidemiological analytics, interpretable AI, and data-driven health innovation.        
 
