@@ -7,7 +7,6 @@
 library(here)
 library(tidyverse)
 library(readxl)
-library(stringr)
 
 # Load raw data
 raw_path <- here("data/raw/wmr2025_annex_4l.xlsx")

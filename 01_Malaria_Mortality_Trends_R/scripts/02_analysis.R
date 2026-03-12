@@ -4,7 +4,6 @@
 # Purpose: Core epidemiological analysis
 # ==========================================
 
-
 library(here)
 library(tidyverse)
 
@@ -91,7 +90,7 @@ regional_trends <- data %>%
   group_by(region, year) %>%
   summarise(total_deaths = sum(malaria_deaths), .groups = "drop")
 
-regional %>%
+regional_trends %>%
   group_by(region) %>%
   summarise(total = sum(total_deaths)) %>%
   arrange(desc(total))
