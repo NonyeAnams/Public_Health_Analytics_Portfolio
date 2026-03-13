@@ -21,6 +21,10 @@ data <- read_csv(here("data/processed/malaria_deaths_clean.csv"))
 world <- ne_countries(scale = "medium", returnclass = "sf")
 africa_map <- world %>% filter(continent == "Africa")
 
+world %>% filter(continent == "Africa")
+
+names(africa_map)
+
 # -----------------------------
 # Use most recent year
 # -----------------------------
@@ -30,20 +34,10 @@ latest_data <- data %>%
   filter(year == latest_year)
 
 # -----------------------------
-# Fix common country name mismatches
-# -----------------------------
-latest_data <- latest_data %>%
-  mutate(country = recode(country,
-                          "Congo (Democratic Republic of the)" = "Democratic Republic of the Congo",
-                          "Côte d’Ivoire" = "Ivory Coast",
-                          "United Republic of Tanzania" = "Tanzania",
-                          "Eswatini (Swaziland)" = "Eswatini"))
-
-# -----------------------------
 # Merge spatial + malaria data
 # -----------------------------
 map_data <- africa_map %>%
-  left_join(latest_data, by = c("name" = "country"))
+  left_join(latest_data, by = c("iso_a3" = "iso"))
 # -----------------------------
 # Plot map
 # -----------------------------

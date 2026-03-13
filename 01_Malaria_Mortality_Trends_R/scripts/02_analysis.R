@@ -13,7 +13,6 @@ library(tidyverse)
 
 data <- read_csv(here("data/processed/malaria_deaths_clean.csv"))
 
-# Ensure proper ordering
 data <- data %>% arrange(country, year)
 
 # -----------------------------
@@ -23,15 +22,14 @@ nigeria <- data %>% filter(country == "Nigeria")
 
 nigeria_summary <- nigeria %>%
   summarise(
-    avg_deaths = mean(malaria_deaths),
-    max_deaths = max(malaria_deaths),
-    min_deaths = min(malaria_deaths),
-    start_year = min(year),
-    end_year = max(year)
+    avg_deaths = mean(malaria_deaths, na.rm = TRUE),
+    max_deaths = max(malaria_deaths, na.rm = TRUE),
+    min_deaths = min(malaria_deaths, na.rm = TRUE),
+    max_deaths_year = year[which.max(malaria_deaths)],
+    min_deaths_year = year[which.min(malaria_deaths)]
   )
 
 write_csv(nigeria_summary, here("outputs/tables/nigeria_summary.csv"))
-
 
 # ------------------------------------------
 # Nigeria Share of Africa Malaria Deaths
@@ -69,7 +67,6 @@ nigeria_change <- nigeria %>%
 write_csv(nigeria_change, here("outputs/tables/nigeria_percent_change.csv"))
 
 
-
 # ------------------------------------------
 # High-Burden Countries (Latest Year)
 # ------------------------------------------
@@ -90,14 +87,15 @@ regional_trends <- data %>%
   group_by(region, year) %>%
   summarise(total_deaths = sum(malaria_deaths), .groups = "drop")
 
-regional_trends %>%
+
+regional_totals <- regional_trends %>%
   group_by(region) %>%
   summarise(total = sum(total_deaths)) %>%
   arrange(desc(total))
 
 
 write_csv(regional_trends, here("outputs/tables/regional_trends.csv"))
-
+write_csv(regional_totals, here("outputs/tables/regional_totals.csv"))
 
 # ------------------------------------------
 # Country Trend Classification
