@@ -134,10 +134,10 @@ Geographic visualization reveals strong clustering of malaria mortality.
 
 Key patterns from the Africa map:
 
-- High mortality clusters in West Africa, which appears consistently bright on the map.
-- Parts of South-East Africa also show intense localized burden.
-- Southern Africa shows very low mortality, reflecting successful control or elimination.
-- Several regions appear pale or unshaded, indicating minimal or no reported deaths.
+- High mortality clusters in Central and West Africa, which appear consistently bright on the map.
+- Parts of East Africa also show intense localized burden.
+- Southern Africa shows low mortality, reflecting successful control.
+- A few regions appear pale or unshaded, indicating minimal or no reported deaths.
 
 **Interpretation:**
 Malaria burden is not evenly distributed across Africa, with clear geographic hotspots that could guide targeted interventions.
