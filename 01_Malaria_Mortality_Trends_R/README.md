@@ -1,148 +1,179 @@
----
-# Malaria Mortality Trends and Geographic Distribution in Africa (2001–2024) (WHO Data, R)
----
+# Malaria Mortality Trends and Geographic Distribution in Africa (2001–2024) 
+**Global Malaria Mortality Analysis using WHO Data**
 
-## Overview
 
-This project analyzes global malaria mortality trends using data from the WHO World Malaria Report 2025.
-The analysis focuses on:
+## Live Interactive Dashboard
+Explore the interactive dashboard:   
+https://chinonyeanams.shinyapps.io/malaria-mortality-dashboard/
 
-- Nigeria’s malaria burden
-- Africa-wide mortality patterns
-- High-burden country comparisons
-- Regional trends and spatial mapping
+The dashboard allows users to:
+- Explore malaria mortality trends by country
+- Compare country progress against 2024 benchmarks
+- Identify high-burden countries
+- Visualize spatial patterns of malaria mortality across Africa
+  
+## Project Overview
+This project analyzes global malaria mortality trends from 2001–2024 using data from the WHO World Malaria Report 2025.
 
-Built entirely in R, this project demonstrates end-to-end data analytics skills for public health.
+The analysis investigates:
+- Nigeria’s contribution to malaria mortality
+- Regional inequalities in malaria burden
+- Long-term mortality trends across countries
+- High-burden country clusters
+- Geographic distribution of malaria deaths across Africa
+  
+The project demonstrates end-to-end public health data analytics, including:
+- Data cleaning
+- Exploratory analysis
+- Visualization
+- Geospatial mapping
+- Interactive dashboard development
 
----
+All analysis and visualization were conducted in R.
+
 
 ## Objectives
-
 - Clean and standardize WHO malaria datasets
-- Analyze malaria mortality trends (2001–2024)
+- Analyze global malaria mortality trends (2001–2024)
 - Quantify Nigeria’s contribution to global malaria deaths
 - Identify high-burden countries
-- Visualize malaria burden using maps and charts
+- Explore regional inequalities in malaria mortality
+- Visualize malaria mortality using charts and maps
+- Build an interactive dashboard for data exploration
 
----
 
 ## Dataset
-Source: WHO World Malaria Report 2025
-File: Annex 4L – Long format malaria deaths dataset
+Source: 
+WHO World Malaria Report 2025  
 
----
+Dataset used:  
+Annex 4L – Long format malaria deaths dataset
 
-## Variables used:
+Variables used:
 - Country
 - WHO Region
 - Year
 - Number of malaria deaths
-
----
+  
 
 ## Tools & Skills Demonstrated
-- **Data Cleaning**: tidyverse, readxl
-- **Exploratory Analysis**: dplyr, summarise
-- **Visualization**: ggplot2
-- **Geospatial Mapping**: sf, rnaturalearth
-- **Reproducible Workflows**: here
+Data Analysis
+- tidyverse
+- readxl
 
----
+Data Visualization
+- ggplot2
+- viridis
+
+Geospatial Analysis
+- sf
+- rnaturalearth
+
+Interactive Dashboard
+- shiny
+- shinydashboard
+- plotly
+
 
 ## Project Structure
 ```
 01_Malaria_Mortality_Trends_R/
 │
+├── app.R
+├── README.md
+├── .gitignore
+├── 01_Malaria_Mortality_Trends_R.Rproj
 │
-│── 01_Malaria_Mortality_Trends_R.Rproj 
-│    
-├── data/
-│   ├── raw/
-│   │     └── wmr2025_annex_4l.xlsx
+├── data
+│   ├── raw
+│   │   └── wmr2025_annex_4l.xlsx
 │   │
-│   └── processed/
-│          └── cleaned_malaria_deaths.csv
+│   └── processed
+│       └── cleaned_malaria_deaths.csv
 │
-├── R/
+├── R
 │   ├── 01_data_cleaning.R
 │   ├── 02_analysis.R
 │   ├── 03_visualizations.R
 │   └── 04_mapping.R
 │
-├── outputs/
-│   ├── charts/
-│   └── maps/
-│
-│── README.md
-│
-└── .gitignore
+└── outputs
+    ├── charts
+    ├── maps
+    └── tables
 ```
----
+
 
 ## Key Findings
 ### Nigeria’s Malaria Burden
-- Nigeria remains a major contributor to malaria mortality, although trends suggest gradual improvement.
-- Nigeria recorded an average of ~7,552 malaria deaths per year across the study period (2001–2024).
-- Mortality declined from 4,317 deaths in 2001 to 3,608 in 2024, representing a 16.4% reduction.
-- Despite this decline, Nigeria still accounted for an average of ~6.1% of malaria deaths in Africa, highlighting its continued public health importance.
-- Nigeria’s highest proportional burden occurred in 2019, when it contributed ~19.9% of Africa’s malaria deaths, indicating periods of concentrated impact.
+Nigeria remains a major contributor to global malaria mortality.
 
-**Interpretation:**
-While progress is evident, Nigeria remains a priority country for malaria control due to sustained high mortality and regional influence.
+Key observations:
+- Average of ~7,552 deaths per year between 2001–2024
+- Mortality declined from 4,317 deaths in 2001 to 3,608 in 2024
+- This represents a 16.4% reduction over the study period
+
+Despite progress:
+- Nigeria still accounted for ~6.1% of malaria deaths in Africa on average
+- The highest proportional burden occurred in 2019, when Nigeria contributed ~19.9% of Africa’s malaria deaths
+
+Interpretation:
+While progress is evident, Nigeria remains a priority country for malaria control efforts due to its sustained contribution to regional mortality.
 
 ### High-Burden Countries
-Malaria mortality is heavily concentrated in a small number of countries.
+Malaria mortality is concentrated in a small number of countries.
 
-**Top countries in 2024:**
+Top countries in 2024
 1. Democratic Republic of the Congo
 2. United Republic of Tanzania
 3. Angola
 4. Niger
 5. Chad
-  ***Nigeria ranked 7th globally in 2024.***
+Nigeria ranked 7th globally in 2024.
 
-Across the full study period (2001–2024), the highest cumulative burden countries were:
+Across the full study period (2001–2024), the countries with the highest cumulative malaria mortality were:
 - Democratic Republic of the Congo
 - Kenya
 - United Republic of Tanzania
 - Angola
 - Nigeria
 
-**Interpretation:**
-This confirms a persistent cluster of high-burden countries driving global malaria mortality.
+Interpretation:
+Global malaria mortality is driven by a persistent cluster of high-burden countries, indicating where targeted interventions may have the greatest impact.
 
 ### Regional Inequality
-Malaria deaths are overwhelmingly concentrated in one region.
-- The WHO African Region accounted for ~3.07 million deaths, representing ~96% of global malaria mortality.
-- The second highest region (South-East Asia) contributed only ~50,270 deaths, a tiny fraction by comparison.
+Malaria mortality is overwhelmingly concentrated in a single region.
+- The WHO African Region accounted for ~3.07 million deaths
+- This represents ~96% of global malaria mortality
+The second highest region:
+- South-East Asia: ~50,270 deaths
 
-**Interpretation:**
-Malaria remains a profoundly unequal disease, with the global burden overwhelmingly concentrated in Africa.
+Interpretation:
+Malaria remains one of the most geographically unequal infectious diseases, with the overwhelming burden concentrated in Africa.
 
-## Long-Term Country Trends
+### Long-Term Country Trends
+Country-level mortality trajectories vary widely.
 
-Country-level trends reveal mixed progress.
-- Over 60 countries showed increasing mortality trends, suggesting emerging or persistent control challenges.
-- Slightly over 20 countries showed declining trends, reflecting successful interventions.
-- A similar number of countries showed relatively stable trends.
-
-**Interpretation:**
-Despite global progress narratives, malaria trajectories vary widely across countries.
+Trend classification shows:
+- Over 60 countries experienced increasing mortality trends
+- Over 20 countries showed declining mortality
+- A similar number showed relatively stable trends
+  
+Interpretation:
+Global progress in malaria control is not uniform, with some countries experiencing setbacks despite broader international efforts.
 
 ### Spatial Patterns Across Africa
 Geographic visualization reveals strong clustering of malaria mortality.
 
-Key patterns from the Africa map:
+Key spatial patterns:
+- High mortality clusters in Central and West Africa
+- Significant burden in parts of East Africa
+- Southern Africa shows relatively low mortality levels
+- Several regions show minimal reported mortality
 
-- High mortality clusters in Central and West Africa, which appear consistently bright on the map.
-- Parts of East Africa also show intense localized burden.
-- Southern Africa shows low mortality, reflecting successful control.
-- A few regions appear pale or unshaded, indicating minimal or no reported deaths.
+Interpretation:
+Malaria burden is highly spatially concentrated, highlighting geographic hotspots that could inform targeted malaria interventions.
 
-**Interpretation:**
-Malaria burden is not evenly distributed across Africa, with clear geographic hotspots that could guide targeted interventions.
-
----
 
 ## Example Visualizations
 ![**Nigeria Trend**](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/blob/main/01_Malaria_Mortality_Trends_R/outputs/charts/nigeria_trend.png)
@@ -160,8 +191,15 @@ Malaria burden is not evenly distributed across Africa, with clear geographic ho
 To reproduce the analysis:
 ```
 install.packages(c(
-  "tidyverse", "readxl", "sf",
-  "rnaturalearth", "viridis", "here"
+"tidyverse",
+"readxl",
+"sf",
+"rnaturalearth",
+"viridis",
+"here",
+"shiny",
+"shinydashboard",
+"plotly"
 ))
 ```
 
@@ -171,32 +209,33 @@ Run scripts in order:
 3. Visualizations
 4. Mapping
 
----
 
 ## Why This Project Matters
-Malaria remains a major public health challenge, especially in Africa.
-This project demonstrates how data analytics can:
-- Inform public health decision-making
-- Identify high-risk regions
-- Support malaria elimination strategies
+Malaria remains a major public health challenge globally, particularly in Africa.
 
----
+Data-driven analysis can support:
+- Identification of high-risk countries
+- Monitoring progress toward malaria control
+- Evidence-based allocation of public health resources
+
+This project demonstrates how data analytics and visualization can support epidemiological insight and public health decision-making.
+
 
 ## Future Improvements
-- Interactive dashboards (Tableau / Power BI)
-- Malaria incidence + mortality combined analysis
-- Predictive modeling of malaria trends
-- Integration with population-adjusted rates
+- Population-adjusted mortality rates
+- Predictive modeling of malaria mortality trends
+- Integration with malaria incidence dataset
 
----
 
 ## Author
-
 **Chinonye Anams**   
-Biochemistry & Molecular Biology | Public Health & Healthcare Data Analytics   
-Interested in epidemiological analytics, interpretable AI, and data-driven health innovation.
+Biochemistry & Molecular Biology    
+Public Health & Healthcare Data Analytics   
 
----
+Interested in: 
+- Epidemiological data science
+- Interpretable machine learning in healthcare
+- Data-driven global health innovation
 
 ## License
 Open for educational and portfolio use.
