@@ -4,14 +4,12 @@
 # Author: Chinonye Anams
 # ==========================================
 
-library(here)
 library(tidyverse)
 library(readxl)
 
 # Load raw data
-raw_path <- here("data/raw/wmr2025_annex_4l.xlsx")
 
-data <- read_excel(raw_path, sheet = "Long_Format")
+data <- read_excel("data/raw/wmr2025_annex_4l.xlsx", sheet = "Long_Format")
 
 # Clean dataset
 clean_data <- data %>%
@@ -24,5 +22,5 @@ clean_data <- data %>%
 
 
 # Save processed data
-write_csv(clean_data, here("data/processed/malaria_deaths_clean.csv"))
+write_csv(clean_data, "data/processed/malaria_deaths_clean.csv")
 

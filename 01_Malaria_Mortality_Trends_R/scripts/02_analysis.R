@@ -4,14 +4,13 @@
 # Purpose: Core epidemiological analysis
 # ==========================================
 
-library(here)
 library(tidyverse)
 
 # ------------------------------------------
 # Load cleaned dataset
 # ------------------------------------------
 
-data <- read_csv(here("data/processed/malaria_deaths_clean.csv"))
+data <- read_csv("data/processed/malaria_deaths_clean.csv")
 
 data <- data %>% arrange(country, year)
 
@@ -29,7 +28,7 @@ nigeria_summary <- nigeria %>%
     min_deaths_year = year[which.min(malaria_deaths)]
   )
 
-write_csv(nigeria_summary, here("outputs/tables/nigeria_summary.csv"))
+write_csv(nigeria_summary, "outputs/tables/nigeria_summary.csv")
 
 # ------------------------------------------
 # Nigeria Share of Africa Malaria Deaths
@@ -49,8 +48,25 @@ nigeria_share <- left_join(africa_totals, nigeria_totals, by = "year") %>%
 
 nigeria_share <- nigeria_share %>% filter(!is.na(nigeria_share))
 
-write_csv(nigeria_share, here("outputs/tables/nigeria_share_africa.csv"))
+write_csv(nigeria_share, "outputs/tables/nigeria_share_africa.csv")
 
+# -----------------------------------------
+# Africa share of global malaria deaths
+# -----------------------------------------
+
+global_totals <- data %>%
+  group_by(year) %>%
+  summarise(global_deaths = sum(malaria_deaths), .groups = "drop")
+
+africa_totals <- data %>%
+  filter(region == "AFRO") %>%
+  group_by(year) %>%
+  summarise(africa_deaths = sum(malaria_deaths), .groups = "drop")
+
+africa_share_global <- left_join(global_totals, africa_totals, by = "year") %>%
+  mutate(africa_share = africa_deaths / global_deaths * 100)
+
+write_csv(africa_share_global, "outputs/tables/africa_share_global.csv")
 
 # ------------------------------------------
 # Percent Change in Nigeria Mortality
@@ -64,7 +80,7 @@ nigeria_change <- nigeria %>%
     percent_change = (last_deaths - first_deaths) / first_deaths * 100
   )
 
-write_csv(nigeria_change, here("outputs/tables/nigeria_percent_change.csv"))
+write_csv(nigeria_change, "outputs/tables/nigeria_percent_change.csv")
 
 
 # ------------------------------------------
@@ -77,7 +93,7 @@ latest_burden <- data %>%
   arrange(desc(malaria_deaths)) %>%
   slice_head(n = 10)
 
-write_csv(latest_burden, here("outputs/tables/top10_latest_burden.csv"))
+write_csv(latest_burden, "outputs/tables/top10_latest_burden.csv")
 
 
 # ------------------------------------------
@@ -93,9 +109,7 @@ regional_totals <- regional_trends %>%
   summarise(total = sum(total_deaths)) %>%
   arrange(desc(total))
 
-
-write_csv(regional_trends, here("outputs/tables/regional_trends.csv"))
-write_csv(regional_totals, here("outputs/tables/regional_totals.csv"))
+write_csv(regional_totals, "outputs/tables/regional_totals.csv")
 
 # ------------------------------------------
 # Country Trend Classification
@@ -116,7 +130,7 @@ trend_classification <- data %>%
     )
   )
 
-write_csv(trend_classification, here("outputs/tables/country_trends.csv"))
+write_csv(trend_classification, "outputs/tables/country_trends.csv")
 
 
 # ------------------------------------------

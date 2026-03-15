@@ -4,26 +4,23 @@
 # Author: Chinonye Anams
 # ============================================
 
-library(here)
 library(tidyverse)
 library(sf)
 library(rnaturalearth)
 library(viridis)
 
+
 # -----------------------------
 # Load cleaned data
 # -----------------------------
-data <- read_csv(here("data/processed/malaria_deaths_clean.csv"))
+data <- read_csv("data/processed/malaria_deaths_clean.csv")
 
 # -----------------------------
 # Get Africa map shapefile
 # -----------------------------
 world <- ne_countries(scale = "medium", returnclass = "sf")
 africa_map <- world %>% filter(continent == "Africa")
-
-world %>% filter(continent == "Africa")
-
-names(africa_map)
+saveRDS(africa_map, "data/africa_map.rds")
 
 # -----------------------------
 # Use most recent year
@@ -38,6 +35,7 @@ latest_data <- data %>%
 # -----------------------------
 map_data <- africa_map %>%
   left_join(latest_data, by = c("iso_a3" = "iso"))
+
 # -----------------------------
 # Plot map
 # -----------------------------
@@ -62,8 +60,8 @@ map_plot <- ggplot(map_data) +
 
 map_plot
 
+
 # -----------------------------
 # Save output
 # -----------------------------
-output_path <- here("outputs/maps", "africa_malaria_map.png")
-ggsave(output_path, width = 9, height = 6, dpi = 300)
+ggsave("outputs/maps/africa_malaria_map.png", width = 9, height = 6, dpi = 300)
