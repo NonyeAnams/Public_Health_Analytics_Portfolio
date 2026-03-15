@@ -11,7 +11,17 @@ The dashboard allows users to:
 - Compare country progress against 2024 benchmarks
 - Identify high-burden countries
 - Visualize spatial patterns of malaria mortality across Africa
-  
+
+## Dashboard Preview
+### Global Overview
+![Dashboard Overview](outputs/charts/dashboard_overview.png)
+
+### Country Trend Analysis
+![Country Trend](outputs/charts/dashboard_country_trends.png)
+
+### Africa Mortality Map
+![Africa Map](outputs/charts/dashboard_africa_burden_map.png)
+
 ## Project Overview
 This project analyzes global malaria mortality trends from 2001–2024 using data from the WHO World Malaria Report 2025.
 
@@ -173,19 +183,6 @@ Key spatial patterns:
 
 Interpretation:
 Malaria burden is highly spatially concentrated, highlighting geographic hotspots that could inform targeted malaria interventions.
-
-
-## Example Visualizations
-![**Nigeria Trend**](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/blob/main/01_Malaria_Mortality_Trends_R/outputs/charts/nigeria_trend.png)
-- Line plot showing annual malaria deaths in Nigeria
-
-![**Top 10 Countries**](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/blob/main/01_Malaria_Mortality_Trends_R/outputs/charts/top10_countries.png)
-- Bar chart ranking countries by total deaths (2001–2024)
-
-![**Africa Malaria Map**](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/blob/main/01_Malaria_Mortality_Trends_R/outputs/maps/africa_malaria_map.png)
-- Choropleth map of malaria mortality across Africa
-
----
 
 ## Reproducibility
 To reproduce the analysis:
