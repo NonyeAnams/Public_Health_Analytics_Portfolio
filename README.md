@@ -1,6 +1,7 @@
 # Public Health Data Analytics Portfolio
-
----
+<p align="center">
+  <img src="01_Malaria_Mortality_Trends_R/outputs/charts/dashboard_overview.png" alt="Project Banner" width="100%">
+</p>
 
 ## Mission
 
@@ -14,9 +15,15 @@ The work demonstrates how data can support:
 - Public health insight communication
 
 The overall goal is simple:
-**turn health data into clear, actionable insight for real-world impact.**
+**turn complex health data into clear, actionable insight for real-world public health impact.**
 
----
+## Portfolio Highlights
+
+• Global malaria mortality analysis across 2001–2024  
+• Interactive epidemiology dashboard built with R Shiny  
+• SQL-based health surveillance analytics system  
+• Explainable machine learning models for disease risk prediction  
+• Vaccination coverage analysis for immunization monitoring
 
 ## Core Capabilities
 
@@ -36,9 +43,11 @@ The overall goal is simple:
 ---
 
 ## Featured Projects
+The projects below demonstrate applied analytics across disease surveillance, vaccination monitoring, and epidemiological modeling.
+
 | # |Project	| Focus Area	| Tools|
 | :--- | :--- | :--- |:--- |
-| 1	| [Malaria Mortality Trends in Africa (2001–2024)](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/tree/main/01_Malaria_Mortality_Trends_R) |	Long-term disease burden & regional inequality |	R |
+| 1	| [Malaria Mortality Trends in Africa (2001–2024)](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/tree/main/01_Malaria_Mortality_Trends_R) |	Long-term disease burden & regional inequality |	R, Shiny|
 | 2	| [Measles Vaccination Coverage & Incidence (SSA)](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/tree/main/05_Excel_Immunization_Coverage) |	Immunization monitoring & herd immunity gaps | Excel |
 | 3	| [Public Health Surveillance & Vaccination Analytics System](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/tree/main/06_SQL_Health_Database_Analysis) |	Simulated national surveillance & outbreak detection |	SQL, Python, Power BI |
 | 4	| [Heart Disease Risk Prediction (Explainable ML)](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/tree/main/02_Cardiovascular_Risk_Prediction) |	Interpretable clinical risk modeling	| Python |
@@ -84,7 +93,6 @@ I am currently deepening expertise in:
 ## Current Learning Focus
 
 I am actively expanding this portfolio to include:
-
 - Monitoring & Evaluation dashboards
 - Advanced SQL for surveillance analytics
 - Interactive BI dashboards (Power BI / Tableau Public)
