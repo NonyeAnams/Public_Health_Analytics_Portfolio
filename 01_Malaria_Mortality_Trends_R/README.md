@@ -1,9 +1,9 @@
-# Malaria Mortality Trends and Geographic Distribution in Africa (2001–2024) 
-**Global Malaria Mortality Analysis using WHO Data**
-
+# Global Malaria Mortality Analysis (2001–2024)
+WHO World Malaria Report Data | R Analytics + Interactive Dashboard
 
 ## Live Interactive Dashboard
-Explore the interactive dashboard:   
+Explore the interactive dashboard: 
+
 https://chinonyeanams.shinyapps.io/malaria-mortality-dashboard/
 
 The dashboard allows users to:
