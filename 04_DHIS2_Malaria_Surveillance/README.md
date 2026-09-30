@@ -1,75 +1,43 @@
-# DHIS2-Style Malaria Surveillance Analysis: A Mini Public Health Data Project
+# DHIS2-Style Malaria Surveillance Analysis
 
-## Background
+A simulated routine malaria surveillance analysis demonstrating how facility-level reporting data can be cleaned, aggregated, assessed for completeness, and visualised using R.
 
-Routine malaria surveillance systems rely on platforms like DHIS2 to collect facility-level data used for monitoring disease trends and informing interventions.
+**Tools:** R, dplyr, ggplot2
 
-## Data Source
-This project uses a simulated DHIS2-style malaria dataset, designed to mimic real-world routine health facility reporting across Nigerian states. The dataset includes malaria cases, facility-level reporting, and completeness indicators.
+**Important:** This project uses simulated data designed to resemble routine health-facility reporting. It does not represent actual Nigerian DHIS2 data or real surveillance estimates.
 
-## Objective
+## Key work
 
-This mini project explores a simulated DHIS2-style malaria dataset to demonstrate foundational analytics relevant to routine surveillance systems.
+* Cleaned and structured simulated facility-level malaria reporting data.
+* Aggregated reported cases by state and month.
+* Analysed monthly and state-level malaria trends.
+* Calculated reporting completeness across states.
+* Compared reporting completeness with reported disease burden.
+* Created visualisations for surveillance reporting and data-quality assessment.
 
+## Key findings
 
-## Key Questions
+* Reported malaria cases were concentrated in a small number of states, with Kano, Kaduna, and Rivers accounting for approximately 70% of reported cases in the simulated dataset.
+* Reported cases increased from January to March, with a peak in March.
+* Average reporting completeness was approximately 89%, with no state below 80%.
+* Reporting completeness varied across states, demonstrating why data-quality indicators should be considered when interpreting routine surveillance data.
 
-- How do malaria cases vary across time and states?
-- What is the level of reporting completeness?
-- How might data quality influence malaria burden estimates?
+## Public health analytics relevance
 
+The project demonstrates a basic workflow for working with routine surveillance data:
 
-## Skills Demonstrated
+**Reporting data → data quality assessment → aggregation → trend analysis → visualisation → interpretation**
 
-- **Data Management:** Cleaned and structured DHIS2-style dataset
-- **Analysis:** State-level aggregation, monthly trend assessment, completeness calculation
-- **Visualization:** Line plots, bar charts, and reporting completeness charts
-- **Public Health Interpretation:** Translated data into actionable programmatic insights
-- **Reproducibility:** Structured R workflow, outputting charts and summaries for decision-making
+## Project structure
 
-## Key Insights From the Analysis
+```text
+DHIS2_Malaria_Surveillance/
+│
+├── analysis/
+├── data/
+├── outputs/
+└── README.md
+```
 
-### 1. Malaria Burden by State
+The analysis is structured as a reproducible R workflow with outputs for trends, state comparisons, and reporting completeness.
 
-- The top 3 states contributing the highest malaria burden were Kano, Kaduna, and Rivers.
-- Together, these states accounted for ~70% of all reported malaria cases, indicating concentrated transmission hotspots.
-
-**Public health implication:**
-These states should be prioritized for malaria control interventions such as targeted distribution of insecticide-treated nets, indoor residual spraying, and enhanced case management.
-
-### 2. Monthly Trends
-
-- Malaria cases generally increased from January to March, reflecting the early rainy season in some regions.
-- There was a noticeable seasonal spike in March, aligning with expected transmission patterns.
-
-**Public health implication:**
-Understanding seasonal trends can inform timing of preventive campaigns and resource allocation.
-
-### 3. Surveillance Quality
-
-- Average reporting completeness across states was high (~0.889), with no state below 80%.
-- FCT achieved 100% reporting, indicating strong data coverage.
-
-**Public health implication:** 
-Surveillance data is reliable for identifying trends and planning interventions.
-
-### 4. Data Quality Insights
-
-- Reporting completeness was consistent across most states, so lower malaria counts were unlikely due to underreporting.
-- FCT had the highest reporting rate, yet relatively low malaria burden, confirming data accuracy.
-
-**Public health interpretation:** 
-Data reliability allows confidence in burden estimates and programmatic decisions.
-
-### 5. Programmatic Recommendations
-
-- **States needing focused intervention:** Kano, as the highest-burden state.
-- **Primary driver of high case counts:** Transmission rather than reporting gaps.
-
-**Suggested actions:** Strengthen vector control, community engagement, and case management in high-burden areas, while maintaining high-quality surveillance across all states.
-
-
-## Author
-**Chinonye Anams**        
-Biochemistry & Molecular Biology | Public Health & Healthcare Data Analytics        
-Interested in epidemiological analytics, interpretable AI, and data-driven health innovation.        
