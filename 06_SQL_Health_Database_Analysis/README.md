@@ -1,37 +1,57 @@
 # Public Health Surveillance & Vaccination Analytics System
----
 
-## Dashboard Preview
+A simulated national public-health surveillance system demonstrating how healthcare data can be structured, validated, analysed with SQL, and transformed into operational dashboards.
+
+**Tools:** SQLite, SQL, Python, Power BI
+
+**Important:** All healthcare data in this project is synthetic and was created for analytical demonstration. It does not represent real patient records or actual national surveillance data.
+
+## Key work
+
+* Generated a synthetic multi-year healthcare dataset using Python.
+* Designed a relational database covering patients, visits, disease cases, vaccinations, treatments, facilities, and states.
+* Created SQL validation checks to assess data quality.
+* Developed KPI views for disease burden, case-fatality rates, vaccination coverage, facility workload, and treatment costs.
+* Developed queries to identify unusual case spikes, year-over-year changes, and potential disease-burden anomalies.
+* Built Power BI dashboards for disease outcomes, vaccination coverage, and health-system indicators.
+
+## Key outputs
+
+The SQL analytics layer includes:
+
+* Disease burden and mortality
+* Case-fatality rates
+* Yearly disease trends
+* Vaccination coverage
+* Facility workload
+* Treatment costs
+* Cases compared with vaccination coverage
+* Outbreak/anomaly detection indicators
+
+## Dashboard
 
 ### Disease Burden & Outcomes
-![Dashboard Page 1](05_powerbi_dashboard/dashboard_screenshots/dashboard_page1_disease_burden.png)
+
+![Disease Burden Dashboard](05_powerbi_dashboard/dashboard_screenshots/dashboard_page1_disease_burden.png)
 
 ### Vaccination & Health System
-![Dashboard Page 2](05_powerbi_dashboard/dashboard_screenshots/dashboard_page2_vaccination_system.png)
 
----
+![Vaccination Dashboard](05_powerbi_dashboard/dashboard_screenshots/dashboard_page2_vaccination_system.png)
 
-## Project Overview
+## Dataset
 
-This project simulates a national public health surveillance system using synthetic healthcare data.
+The synthetic dataset contains approximately:
 
-It demonstrates how SQL and BI tools can be used to:
-- Monitor disease burden
-- Track vaccination coverage
-- Analyze treatment costs
-- Detect potential outbreak patterns
-- Evaluate health system capacity
+* 5,000 patients
+* Multiple healthcare facilities
+* Multiple disease categories
+* Multi-year data covering 2020–2024
 
-The system is built using:
+The data was generated to demonstrate common healthcare analytics workflows rather than to reproduce real-world disease patterns.
 
-- **SQLite (database & analytics layer)**
-- **Python (synthetic data generation)**
-- **Power BI (interactive dashboards)**
+## Project structure
 
----
-
-## Project Structure
-```
+```text
 SQL-Health-Data-Analysis/
 │
 ├── README.md
@@ -73,188 +93,11 @@ SQL-Health-Data-Analysis/
          ├── dashboard_preview_1.png
          └── dashboard_preview_2.png
 ```
----
 
-## Database Design
-- **Core Tables**
-  - patients
-  - visits
-  - cases
-  - diseases
-  - treatments
-  - vaccinations
-  - facilities
-  - states
+The workflow covers synthetic data generation → database design → data validation → SQL analysis → KPI development → Power BI reporting.
 
-- **Key Relationships**
-  - Patients → Visits
-  - Visits → Cases
-  - Visits → Treatments
-  - Patients → Vaccinations
-  - Facilities → States
 
----
 
-## KPI Views (Analytics Layer)
 
-The project uses SQL Views as a semantic layer for BI reporting.
 
-Key Views:
-| View	| Purpose |
-| :--- | :--- |
-| vw_disease_burden |	Total cases & deaths by disease |
-| vw_case_fatality_rate	| CFR by disease |
-| vw_yearly_trends | Disease trends (2020–2024) |
-| vw_vaccination_coverage	| Vaccination rate by state |
-| vw_facility_burden |	Population per facility |
-| vw_treatment_cost_analysis |	Avg treatment cost by disease |
-| vw_cases_vs_vaccinated_by_state | Diseases case vs vaccination coverage by state |
 
-These views were connected directly into Power BI.
-
----
-
-## Outbreak Detection Logic
-
-Outbreak detection queries identify:
-
-- Unusual spikes in cases by state
-
-- Year-over-year growth
-
-- States exceeding national average case growth
-
-- High CFR anomalies
-
-This simulates early warning public health surveillance systems.
-
----
-
-## Dashboard Overview (Power BI)
-### Page 1: Disease Burden & Outcomes
-#### KPIs
-
-- Total Cases
-- Total Deaths
-- Overall Case Fatality Rate (CFR)
-
-#### Visualizations
-
-- Top Diseases by Cases
-- CFR by Disease
-- Yearly Disease Trends
-- Case Distribution by Severity
-
-### Page 2: Vaccination & Health System
-#### KPIs
-
-- National Vaccination Coverage (%)
-- Population per Health Facility
-
-#### Visualizations
-
-- Vaccination Coverage by State
-- Disease Cases vs Vaccination Coverage (Scatter)
-- Facility Patient Load by State
-- Treatment Cost by Disease
-
----
-
-## Synthetic Data Generation
-
-Data was generated using Python to simulate:
-
-- Realistic disease distributions
-- Severity levels (Mild / Moderate / Severe)
-- Mortality patterns
-- Vaccination coverage variation by state
-- Treatment cost variability
-
-Dataset size:
-
-- ~5,000 patients
-- Multi-year coverage (2020–2024)
-
----
-
-## How to Reproduce This Project
-
-1. Run the synthetic data generator:
-   python synthetic_health_data_generator.py
-
-2. Import CSVs into SQLite or PostgreSQL
-
-3. Execute SQL scripts in order:
-   - 01_production_schema.sql
-   - 02_data_validation_checks.sql
-   - 03_kpi_views.sql
-   - 04_outbreak_detection_queries.sql
-
-4. Load exported views into Power BI
-
----
-
-## Key Insights
-
-- Certain diseases show higher CFR despite lower case counts.
-
-- States with lower vaccination coverage trend toward higher disease cases.
-
-- Facility burden varies significantly by region.
-
-- Treatment costs differ considerably by disease type.
-
----
-
-## Tools & Technologies
-
-- SQLite
-
-- DB Browser for SQLite
-
-- Python (Pandas, Random data generation)
-
-- Power BI Desktop
-
----
-
-## Skills Demonstrated
-
-- Relational schema design
-
-- Data modeling & normalization
-
-- SQL joins & aggregations
-
-- Window functions
-
-- KPI view creation
-
-- Outbreak analytics logic
-
-- BI dashboard design
-
-- Public health data storytelling
-
----
-
-## Future Improvements
-
-- Add population reference table (true denominator modeling)
-
-- Add age group stratification
-
-- Add seasonal outbreak simulation
-
-- Implement rolling 7-day outbreak detection
-
-- Deploy to PostgreSQL
-
-- Publish dashboard to Power BI Service
-
----
-
-## Author
-**Chinonye Anams**               
-Public Health Data Analytics Project               
-2026
