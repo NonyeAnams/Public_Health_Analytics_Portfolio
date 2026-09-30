@@ -3,84 +3,144 @@
   <img src="01_Malaria_Mortality_Trends_R/outputs/charts/dashboard_overview.png" alt="Project Banner" width="100%">
 </p>
 
-## Mission
-This portfolio showcases applied data analysis projects focused on public health, infectious diseases, and biological data interpretation.
+# Chinonye Anams
 
-The work demonstrates how computational approaches can support:
+## Public Health & Healthcare Data Analyst
 
-- Disease surveillance and outbreak analysis
-- Vaccination program monitoring
-- Epidemiological trend exploration
-- Data-driven understanding of health and disease systems
-  
-The overall goal is to bridge biological knowledge and data analysis, transforming complex datasets into meaningful insights for research and real-world health impact.
+I use data analytics to investigate public health trends, disease burden, immunisation gaps, and healthcare-system performance.
 
-## Portfolio Highlights
-- Global malaria mortality analysis (2001–2024)
-- Interactive epidemiology dashboard built with R Shiny
-- SQL-based public health surveillance analytics system
-- Explainable machine learning models for disease risk prediction
-- Vaccination coverage and incidence analysis
+My work combines **SQL, Python, R, Excel, and Power BI** to transform healthcare and epidemiological data into clear analyses, visualisations, dashboards, and actionable insights.
 
-## Core Capabilities
-**Data Analysis for Public Health**
-- Cleaning and structuring real-world health and biological datasets
-- Epidemiological metric calculation (incidence, CFR, coverage)
-- Trend and pattern analysis across populations and regions
-- Comparative disease burden analysis
-- Translating data into biologically meaningful insights
+My portfolio includes projects involving **disease surveillance, malaria and measles epidemiology, vaccination coverage, healthcare operations, clinical data, and public-health reporting**.
 
-**Computational Tools Applied to Health & Biology**
-- **Excel (Advanced)** – Power Query, PivotTables, dashboards
-- **SQL** – Health database design, analytics layers, surveillance queries
-- **Python / R** – Data analysis, visualization, modeling
-- **Power BI** – Interactive dashboards for decision support
+---
 
+## Featured Healthcare Analytics Projects
 
-## Featured Projects
-These projects demonstrate the application of analytical techniques to disease biology, epidemiology, and health systems data:
+### 01 — Global Malaria Mortality Analysis
 
-| # |Project	| Focus Area	| Tools|
-| :--- | :--- | :--- |:--- |
-| 1	| [Malaria Mortality Trends in Africa (2001–2024)](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/tree/main/01_Malaria_Mortality_Trends_R) |	Disease burden & regional inequality |	R, Shiny|
-| 2	| [Measles Vaccination Coverage & Incidence (SSA)](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/tree/main/05_Excel_Immunization_Coverage) |	Immunization & population health | Excel |
-| 3	| [Public Health Surveillance & Vaccination Analytics System](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/tree/main/06_SQL_Health_Database_Analysis) |	Disease monitoring & outbreak detection |	SQL, Python, Power BI |
-| 4	| [Heart Disease Risk Prediction (Explainable ML)](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/tree/main/02_Cardiovascular_Risk_Prediction) |	Clinical risk modeling	| Python |
-| 5	| [Diabetes Risk Prediction](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/tree/main/03_Diabetes_Risk_Prediction) |	Preventive health analytics	| Python |
-| 6	| [DHIS2-Style Malaria Surveillance mini Project](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/tree/main/04_DHIS2_Malaria_Surveillance)	| Routine epidemiological reporting | R |
+**R · WHO Data · Epidemiological Analysis · Shiny · Geospatial Analytics**
 
-Each project includes documentation explaining methods, assumptions, and insights, reflecting a focus on transparency and reproducibility.
+Analysis of global malaria mortality from 2001–2024 using WHO World Malaria Report data.
 
-## Public Health Themes Across Projects
-- Infectious disease dynamics
-- Vaccination and immunity patterns
-- Surveillance system design
-- Population-level health analysis
-- Data-driven understanding of disease processes
+The project examines long-term mortality trends, high-burden countries, regional inequalities, and the geographic distribution of malaria mortality, with particular attention to Nigeria and Africa.
 
-## Background
-I am a Molecular Biologist with training in biochemistry, cell biology, and genetics, now expanding into bioinformatics and computational analysis of biological and health data.
+**Skills demonstrated:**
+Data cleaning · Exploratory analysis · Trend analysis · Geospatial analysis · Data visualisation · Interactive dashboards
 
-My background contributes:
+**[View Project →](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/tree/main/01_Malaria_Mortality_Trends_R)**
 
-- Strong foundation in biological systems and disease mechanisms
-- Scientific reasoning and experimental thinking
-- Experience interpreting biological and health-related datasets
-- Structured and reproducible analytical workflows
+**[Explore Interactive Dashboard →](https://chinonyeanams.shinyapps.io/malaria-mortality-dashboard/)**
 
-## Current Focus
-I am currently developing skills at the intersection of biology and data science, including:
+---
 
-- Bioinformatics and gene expression analysis
-- Computational approaches to disease research
-- Public health and epidemiological data analysis
-- Reproducible data workflows for scientific research
+### 02 — Public Health Surveillance & Vaccination Analytics System
 
-## Tools & Technologies
-- **Languages:** R | Python | SQL
-- **Analytics & Visualization:** Excel | Power BI | ggplot2 | matplotlib
-- **Libraries:** tidyverse | pandas | scikit-learn | SHAP
+**SQL · Python · Power BI · Healthcare Data · Surveillance Analytics**
 
+A simulated national public-health surveillance system demonstrating how healthcare data can be structured, validated, analysed, and transformed into operational dashboards.
 
-## Connect with Me
+The system includes disease burden, vaccination coverage, healthcare facility workload, treatment costs, and outbreak-detection analyses.
+
+**Skills demonstrated:**
+SQL · Relational data modelling · Data validation · KPI development · Healthcare analytics · Outbreak detection logic · Power BI dashboards
+
+**[View Project →](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/tree/main/06_SQL_Health_Database_Analysis)**
+
+*Note: The healthcare data used in this project is synthetic and was created for analytical demonstration.*
+
+---
+
+### 03 — Measles Vaccination Coverage & Incidence Analysis
+
+**Excel · Power Query · WHO · World Bank · Public Health Analytics**
+
+Analysis of measles vaccination coverage and reported incidence across Sub-Saharan Africa from 2000–2024.
+
+The project combines WHO immunisation data with population data to examine vaccination coverage, disease incidence, regional trends, and gaps in immunisation coverage.
+
+**Skills demonstrated:**
+Data cleaning · Power Query · ETL · Data integration · KPI development · PivotTables · Dashboard design · Public-health data analysis
+
+**[View Project →](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/tree/main/05_Excel_Immunization_Coverage)**
+
+---
+
+### 04 — DHIS2-Style Malaria Surveillance Analysis
+
+**R · Disease Surveillance · Data Quality · Routine Health Data**
+
+A simulated routine surveillance analysis designed to demonstrate how facility-level health data can be used to monitor malaria trends, reporting completeness, and data-quality indicators.
+
+The project examines state-level disease burden, monthly trends, and reporting completeness to illustrate the importance of assessing data quality alongside disease estimates.
+
+**Skills demonstrated:**
+Surveillance analytics · Data cleaning · Aggregation · Reporting completeness · Trend analysis · Data-quality assessment · Visualisation
+
+**[View Project →](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/tree/main/04_DHIS2_Malaria_Surveillance)**
+
+*Note: The surveillance dataset is simulated and is not a representation of actual Nigerian surveillance data.*
+
+---
+
+## Healthcare & Clinical Analytics
+
+### 05 — Explainable Heart Disease Risk Prediction
+
+**Python · Scikit-learn · SHAP · Machine Learning**
+
+An interpretable machine-learning project using clinical data to investigate predictors of heart disease risk and demonstrate patient-level and global model explainability.
+
+**Skills:** Python · Machine learning · Model evaluation · SHAP · Clinical data analysis
+
+**[View Project →](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/tree/main/02_Cardiovascular_Risk_Prediction)**
+
+---
+
+### 06 — Diabetes Risk Prediction
+
+**Python · Scikit-learn · Clinical Data · Machine Learning**
+
+A machine-learning analysis of clinical indicators associated with diabetes risk, including exploratory analysis, predictive modelling, model comparison, and evaluation with an emphasis on screening-related metrics.
+
+**Skills:** Python · Pandas · Scikit-learn · EDA · Classification · Model evaluation
+
+**[View Project →](https://github.com/NonyeAnams/Public_Health_Analytics_Portfolio/tree/main/03_Diabetes_Risk_Prediction)**
+
+---
+
+## Technical Skills
+
+**Data Analysis**
+Python · R · SQL · Excel · Power Query
+
+**Data Visualisation & BI**
+Power BI · ggplot2 · Plotly · Shiny · Matplotlib
+
+**Data Management**
+Data cleaning · ETL · Data validation · Data modelling · Relational databases · KPI development
+
+**Healthcare & Public Health Analytics**
+Disease surveillance · Epidemiological analysis · Immunisation analytics · Health-system indicators · Clinical data · Geospatial analysis
+
+**Machine Learning**
+Scikit-learn · Logistic regression · Random forest · Model evaluation · SHAP
+
+---
+
+## About Me
+
+**Chinonye Anams**
+(Biochemistry & Molecular Biology | Public Health & Healthcare Data Analytics)
+
+I am interested in applying data analytics to healthcare and public-health problems, particularly **epidemiological surveillance, health-system analytics, and interpretable data-driven decision support**.
+
+I enjoy working across the full analytical workflow — from **data collection and cleaning through analysis, visualisation, dashboard development, and communication of findings**.
+
+---
+
+## Contact
+
+**Email:** nonyeanams@gmail.com
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nonye-anams/)
